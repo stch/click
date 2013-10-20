@@ -9,8 +9,13 @@
 script AppDelegate
 	property parent : class "NSObject"
 	
+	on ButtonPresssed_(sender)
+		display dialog "ready?"
+	end ButtonPresssed_
+	
 	on applicationWillFinishLaunching_(aNotification)
-		-- Insert code here to initialize your application before any files are opened 
+		-- Insert code here to initialize your application before any files are opened
+
 	end applicationWillFinishLaunching_
 	
 	on applicationShouldTerminate_(sender)
