@@ -3,13 +3,13 @@
 --  click
 --
 --  Created by Satoshi H on 2013/09/21.
---  Copyright (c) 2013å¹´ Satoshi H. All rights reserved.
+--  Copyright (c) 2013”N Satoshi H. All rights reserved.
 --
 
 script AppDelegate
 	property parent : class "NSObject"
 	
-	on ButtonPresssed_(sender)
+	on ButtonPresssed:sender
 		set tmp to AppleScript's text item delimiters
 		set AppleScript's text item delimiters to {","}
 		set mouseLocB to word 4 of (do shell script "/opt/local/bin/cliclick p") as text
@@ -30,16 +30,16 @@ script AppDelegate
 		end repeat
 		set AppleScript's text item delimiters to tmp
 		--display dialog mouseLocB & " : " & mouseLoc
-	end ButtonPresssed_
+	end ButtonPresssed:
 	
-	on applicationWillFinishLaunching_(aNotification)
+	on applicationWillFinishLaunching:aNotification
 		-- Insert code here to initialize your application before any files are opened
-
-	end applicationWillFinishLaunching_
+		
+	end applicationWillFinishLaunching:
 	
-	on applicationShouldTerminate_(sender)
+	on applicationShouldTerminate:sender
 		-- Insert code here to do any housekeeping before your application quits 
 		return current application's NSTerminateNow
-	end applicationShouldTerminate_
+	end applicationShouldTerminate:
 	
 end script
