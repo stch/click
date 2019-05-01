@@ -3,200 +3,157 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBA9DFEE17EDE27900444187 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA9DFED17EDE27900444187 /* Cocoa.framework */; };
-		FBA9DFF017EDE27900444187 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA9DFEF17EDE27900444187 /* AppleScriptObjC.framework */; };
-		FBA9DFFA17EDE27900444187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBA9DFF817EDE27900444187 /* InfoPlist.strings */; };
-		FBA9DFFC17EDE27900444187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA9DFFB17EDE27900444187 /* main.m */; };
-		FBA9E00017EDE27900444187 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FBA9DFFE17EDE27900444187 /* Credits.rtf */; };
-		FBA9E00217EDE27900444187 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = FBA9E00117EDE27900444187 /* AppDelegate.applescript */; };
-		FBA9E00517EDE27900444187 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA9E00317EDE27900444187 /* MainMenu.xib */; };
+		FB1218B022720C6F00451BAC /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1218AF22720C6F00451BAC /* AppleScriptObjC.framework */; };
+		FB1218B322720C6F00451BAC /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = FB1218B222720C6F00451BAC /* AppDelegate.applescript */; };
+		FB1218B522720C7000451BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1218B422720C7000451BAC /* Assets.xcassets */; };
+		FB1218B822720C7000451BAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1218B622720C7000451BAC /* MainMenu.xib */; };
+		FB1218BB22720C7000451BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1218BA22720C7000451BAC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB1218A22272066900451BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		FBA9DFEA17EDE27900444187 /* click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = click.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBA9DFED17EDE27900444187 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		FBA9DFEF17EDE27900444187 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
-		FBA9DFF217EDE27900444187 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		FBA9DFF317EDE27900444187 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		FBA9DFF417EDE27900444187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FBA9DFF717EDE27900444187 /* click-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "click-Info.plist"; sourceTree = "<group>"; };
-		FBA9DFF917EDE27900444187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FBA9DFFB17EDE27900444187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FBA9DFFD17EDE27900444187 /* click-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "click-Prefix.pch"; sourceTree = "<group>"; };
-		FBA9DFFF17EDE27900444187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		FBA9E00117EDE27900444187 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		FB1218AC22720C6F00451BAC /* clicka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clicka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1218AF22720C6F00451BAC /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		FB1218B222720C6F00451BAC /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		FB1218B422720C7000451BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1218B722720C7000451BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB1218B922720C7000451BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1218BA22720C7000451BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBA9DFE717EDE27900444187 /* Frameworks */ = {
+		FB1218A922720C6F00451BAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA9DFEE17EDE27900444187 /* Cocoa.framework in Frameworks */,
-				FBA9DFF017EDE27900444187 /* AppleScriptObjC.framework in Frameworks */,
+				FB1218B022720C6F00451BAC /* AppleScriptObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBA9DFE117EDE27900444187 = {
+		FB1218A322720C6F00451BAC = {
 			isa = PBXGroup;
 			children = (
-				FBA9DFF517EDE27900444187 /* click */,
-				FBA9DFEC17EDE27900444187 /* Frameworks */,
-				FBA9DFEB17EDE27900444187 /* Products */,
+				FB1218B122720C6F00451BAC /* clicka */,
+				FB1218AE22720C6F00451BAC /* Frameworks */,
+				FB1218AD22720C6F00451BAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FBA9DFEB17EDE27900444187 /* Products */ = {
+		FB1218AD22720C6F00451BAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBA9DFEA17EDE27900444187 /* click.app */,
+				FB1218AC22720C6F00451BAC /* clicka.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBA9DFEC17EDE27900444187 /* Frameworks */ = {
+		FB1218AE22720C6F00451BAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FBA9DFED17EDE27900444187 /* Cocoa.framework */,
-				FBA9DFEF17EDE27900444187 /* AppleScriptObjC.framework */,
-				FBA9DFF117EDE27900444187 /* Other Frameworks */,
+				FB1218AF22720C6F00451BAC /* AppleScriptObjC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FBA9DFF117EDE27900444187 /* Other Frameworks */ = {
+		FB1218B122720C6F00451BAC /* clicka */ = {
 			isa = PBXGroup;
 			children = (
-				FBA9DFF217EDE27900444187 /* AppKit.framework */,
-				FBA9DFF317EDE27900444187 /* CoreData.framework */,
-				FBA9DFF417EDE27900444187 /* Foundation.framework */,
+				FB1218B222720C6F00451BAC /* AppDelegate.applescript */,
+				FB1218B422720C7000451BAC /* Assets.xcassets */,
+				FB1218B622720C7000451BAC /* MainMenu.xib */,
+				FB1218B922720C7000451BAC /* Info.plist */,
+				FB1218BA22720C7000451BAC /* main.m */,
 			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		FBA9DFF517EDE27900444187 /* click */ = {
-			isa = PBXGroup;
-			children = (
-				FBA9E00117EDE27900444187 /* AppDelegate.applescript */,
-				FBA9E00317EDE27900444187 /* MainMenu.xib */,
-				FBA9DFF617EDE27900444187 /* Supporting Files */,
-			);
-			path = click;
-			sourceTree = "<group>";
-		};
-		FBA9DFF617EDE27900444187 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FBA9DFF717EDE27900444187 /* click-Info.plist */,
-				FBA9DFF817EDE27900444187 /* InfoPlist.strings */,
-				FBA9DFFB17EDE27900444187 /* main.m */,
-				FBA9DFFD17EDE27900444187 /* click-Prefix.pch */,
-				FBA9DFFE17EDE27900444187 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
+			path = clicka;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBA9DFE917EDE27900444187 /* click */ = {
+		FB1218AB22720C6F00451BAC /* clicka */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBA9E00817EDE27900444187 /* Build configuration list for PBXNativeTarget "click" */;
+			buildConfigurationList = FB1218BE22720C7000451BAC /* Build configuration list for PBXNativeTarget "clicka" */;
 			buildPhases = (
-				FBA9DFE617EDE27900444187 /* Sources */,
-				FBA9DFE717EDE27900444187 /* Frameworks */,
-				FBA9DFE817EDE27900444187 /* Resources */,
+				FB1218A822720C6F00451BAC /* Sources */,
+				FB1218A922720C6F00451BAC /* Frameworks */,
+				FB1218AA22720C6F00451BAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = click;
-			productName = click;
-			productReference = FBA9DFEA17EDE27900444187 /* click.app */;
+			name = clicka;
+			productName = clicka;
+			productReference = FB1218AC22720C6F00451BAC /* clicka.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FBA9DFE217EDE27900444187 /* Project object */ = {
+		FB1218A422720C6F00451BAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Satoshi H";
+				ORGANIZATIONNAME = stch;
+				TargetAttributes = {
+					FB1218AB22720C6F00451BAC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
 			};
-			buildConfigurationList = FBA9DFE517EDE27900444187 /* Build configuration list for PBXProject "click" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = FB1218A722720C6F00451BAC /* Build configuration list for PBXProject "clicka" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FBA9DFE117EDE27900444187;
-			productRefGroup = FBA9DFEB17EDE27900444187 /* Products */;
+			mainGroup = FB1218A322720C6F00451BAC;
+			productRefGroup = FB1218AD22720C6F00451BAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBA9DFE917EDE27900444187 /* click */,
+				FB1218AB22720C6F00451BAC /* clicka */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FBA9DFE817EDE27900444187 /* Resources */ = {
+		FB1218AA22720C6F00451BAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA9DFFA17EDE27900444187 /* InfoPlist.strings in Resources */,
-				FBA9E00017EDE27900444187 /* Credits.rtf in Resources */,
-				FBA9E00517EDE27900444187 /* MainMenu.xib in Resources */,
+				FB1218B522720C7000451BAC /* Assets.xcassets in Resources */,
+				FB1218B822720C7000451BAC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FBA9DFE617EDE27900444187 /* Sources */ = {
+		FB1218A822720C6F00451BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA9DFFC17EDE27900444187 /* main.m in Sources */,
-				FBA9E00217EDE27900444187 /* AppDelegate.applescript in Sources */,
+				FB1218BB22720C7000451BAC /* main.m in Sources */,
+				FB1218B322720C6F00451BAC /* AppDelegate.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBA9DFF817EDE27900444187 /* InfoPlist.strings */ = {
+		FB1218B622720C7000451BAC /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FBA9DFF917EDE27900444187 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FBA9DFFE17EDE27900444187 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA9DFFF17EDE27900444187 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		FBA9E00317EDE27900444187 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB1218A22272066900451BAC /* Base */,
+				FB1218B722720C7000451BAC /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -204,18 +161,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FBA9E00617EDE27900444187 /* Debug */ = {
+		FB1218BC22720C7000451BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -223,48 +186,58 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		FBA9E00717EDE27900444187 /* Release */ = {
+		FB1218BD22720C7000451BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -272,78 +245,87 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		FBA9E00917EDE27900444187 /* Debug */ = {
+		FB1218BF22720C7000451BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "click/click-Prefix.pch";
-				INFOPLIST_FILE = "click/click-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stch.scriptlet.${PRODUCT_NAME:rfc1034identifier}";
+				INFOPLIST_FILE = clicka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individuals.stch.test.clicka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		FBA9E00A17EDE27900444187 /* Release */ = {
+		FB1218C022720C7000451BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "click/click-Prefix.pch";
-				INFOPLIST_FILE = "click/click-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stch.scriptlet.${PRODUCT_NAME:rfc1034identifier}";
+				INFOPLIST_FILE = clicka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = individuals.stch.test.clicka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBA9DFE517EDE27900444187 /* Build configuration list for PBXProject "click" */ = {
+		FB1218A722720C6F00451BAC /* Build configuration list for PBXProject "clicka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBA9E00617EDE27900444187 /* Debug */,
-				FBA9E00717EDE27900444187 /* Release */,
+				FB1218BC22720C7000451BAC /* Debug */,
+				FB1218BD22720C7000451BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBA9E00817EDE27900444187 /* Build configuration list for PBXNativeTarget "click" */ = {
+		FB1218BE22720C7000451BAC /* Build configuration list for PBXNativeTarget "clicka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBA9E00917EDE27900444187 /* Debug */,
-				FBA9E00A17EDE27900444187 /* Release */,
+				FB1218BF22720C7000451BAC /* Debug */,
+				FB1218C022720C7000451BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FBA9DFE217EDE27900444187 /* Project object */;
+	rootObject = FB1218A422720C6F00451BAC /* Project object */;
 }

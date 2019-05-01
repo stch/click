@@ -1,134 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
             <connections>
-                <outlet property="delegate" destination="494" id="495"/>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <menu title="AMainMenu" systemMenu="main" id="29" userLabel="MainMenu">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+            <connections>
+                <outlet property="dispText" destination="jFp-rd-qfs" id="gDc-jy-3HH"/>
+                <outlet property="theWindow" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="click" id="56">
-                    <menu key="submenu" title="click" systemMenu="apple" id="57">
+                <menuItem title="clicka" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="clicka" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About click" id="58">
+                            <menuItem title="About clicka" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
-                                    <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="236">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Preferences…" keyEquivalent="," id="129" userLabel="121"/>
-                            <menuItem isSeparatorItem="YES" id="143">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Services" id="131">
-                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="144">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Hide click" keyEquivalent="h" id="134">
+                            <menuItem isSeparatorItem="YES" id="eDL-mN-3Ah"/>
+                            <menuItem title="Run" keyEquivalent="c" id="Klj-oT-9IT">
                                 <connections>
-                                    <action selector="hide:" target="-1" id="367"/>
+                                    <action selector="doCliClick:" target="-1" id="T4o-9H-aZ3"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Hide Others" keyEquivalent="h" id="145">
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                            <menuItem title="Services" id="NMo-om-nkz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide clicka" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
-                                    <action selector="hideOtherApplications:" target="-1" id="368"/>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show All" id="150">
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
-                                    <action selector="unhideAllApplications:" target="-1" id="370"/>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
                                 </connections>
                             </menuItem>
-                            <menuItem isSeparatorItem="YES" id="149">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Quit click" keyEquivalent="q" id="136" userLabel="1111"/>
-                        </items>
-                    </menu>
-                </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
-                        <items>
-                            <menuItem title="Minimize" keyEquivalent="m" id="23">
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit clicka" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
-                                    <action selector="performMiniaturize:" target="-1" id="37"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Zoom" id="239">
-                                <connections>
-                                    <action selector="performZoom:" target="-1" id="240"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="92">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Bring All to Front" id="5">
-                                <connections>
-                                    <action selector="arrangeInFront:" target="-1" id="39"/>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
                             </menuItem>
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Help" id="490">
+                <menuItem title="Window" id="aUF-d1-5bR">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Help" systemMenu="help" id="491">
+                    <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
                         <items>
-                            <menuItem title="click Help" keyEquivalent="?" id="492">
+                            <menuItem title="Minimize" keyEquivalent="m" id="OY7-WF-poV">
                                 <connections>
-                                    <action selector="showHelp:" target="-1" id="493"/>
+                                    <action selector="performMiniaturize:" target="-1" id="VwT-WD-YPe"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Zoom" id="R4o-n2-Eq4">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="performZoom:" target="-1" id="DIl-cC-cCs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="eu3-7i-yIM"/>
+                            <menuItem title="Bring All to Front" id="LE2-aR-0XJ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="arrangeInFront:" target="-1" id="DRN-fu-gQh"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Help" id="wpr-3q-Mcd">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                        <items>
+                            <menuItem title="clicka Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                <connections>
+                                    <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
                                 </connections>
                             </menuItem>
                         </items>
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="77" y="-112"/>
         </menu>
-        <window title="click" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+        <window title="clicka" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="258" height="100"/>
+            <rect key="contentRect" x="335" y="390" width="162" height="103"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1080" height="1897"/>
-            <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="258" height="100"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="103"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button identifier="btn" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="531" userLabel="Start">
-                        <rect key="frame" x="89" y="32" width="81" height="32"/>
-                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="532">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lTs-wg-ka6">
+                        <rect key="frame" x="41" y="13" width="81" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="r54-Ss-lgy">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
                         </buttonCell>
                         <connections>
-                            <action selector="ButtonPresssed:" target="-1" id="VJp-Mx-cP7"/>
+                            <action selector="doCliClick:" target="-1" id="msp-eB-5bV"/>
                         </connections>
                     </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFp-rd-qfs">
+                        <rect key="frame" x="20" y="66" width="122" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="truncatingMiddle" allowsUndo="NO" alignment="left" title="Label" drawsBackground="YES" id="EKP-TR-FPP">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="531" firstAttribute="centerY" secondItem="372" secondAttribute="centerY" id="533" userLabel="Go"/>
-                    <constraint firstItem="531" firstAttribute="centerX" secondItem="372" secondAttribute="centerX" id="534"/>
-                </constraints>
             </view>
-            <point key="canvasLocation" x="123" y="13"/>
+            <point key="canvasLocation" x="-20" y="-248.5"/>
         </window>
-        <customObject id="494" customClass="AppDelegate"/>
-        <customObject id="420" customClass="NSFontManager"/>
     </objects>
 </document>
